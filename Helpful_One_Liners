@@ -1,0 +1,11 @@
+@echo off
+
+
+#created for use of each command stand alone.
+#prefer commands that can be used on computers without additional software loaded just everyday windows.
+
+#Searches every five seconds for established connections and lists the PID associated with the connection.
+#windows elevated command line
+netsat -anob 5 |findstr "ESTABLSIHED"
+
+
