@@ -6,6 +6,6 @@
 
 #Searches every five seconds for established connections and lists the PID associated with the connection.
 #windows elevated command line
-netsat -anob 5 |findstr "ESTABLSIHED"
+netsat -anob 5 |findstr "ESTABLISHED"
 
 
